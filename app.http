@@ -1,0 +1,9 @@
+POST http://localhost:3000/postEvents
+Content-Type: application/json
+
+{
+    "username":"bharath",
+    "email":"bharath123@gmail.com",
+    "phone":"9247635879",
+    "eventType":"Trinning Session"
+}
