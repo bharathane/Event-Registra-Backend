@@ -49,7 +49,7 @@ app.post("/postEvents/", async (req, res) => {
       from: "mandabharath49@gmail.com",
       to: email,
       subject: "Congractulations| Registration Successfull",
-      text: `you registration is successfull. you registration id is ${dbRes.id}`,
+      text: `your registration for  ${eventType} is successfull`,
     };
 
     transporter.sendMail(mailOptions, (error, info) => {
