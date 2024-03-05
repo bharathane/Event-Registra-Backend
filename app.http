@@ -3,7 +3,11 @@ Content-Type: application/json
 
 {
     "username":"bharath",
-    "email":"bharath123@gmail.com",
-    "phone":"9247635879",
-    "eventType":"Trinning Session"
+    "email":"mandadurgabharath@gmail.com",
+    "phone":"8247360108",
+    "eventType":"Birthday Party"
 }
+
+###
+
+Get http://localhost:3000/getEvents
