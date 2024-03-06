@@ -46,7 +46,7 @@ app.post("/postEvents/", async (req, res) => {
     const dbRes = await db.run(sqlQueryForPost);
     const getIdQuery = `select * from events order by id desc limit 1`;
     const getIdForDbRes = await db.all(getIdQuery);
-
+    res.send({ succesMessage: "Booking Successfull" });
     const mailOptions = {
       from: "mandabharath49@gmail.com",
       to: email,
@@ -77,7 +77,6 @@ app.post("/postEvents/", async (req, res) => {
 
       res.status(200).json({ message: "Email sent", info });
     });
-    res.send({ succesMessage: "Booking Successfull" });
   } catch (error) {
     console.log(error.message);
   }
