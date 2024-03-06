@@ -37,3 +37,8 @@ To fix a bug or enhance an existing module, follow these steps:
 - Commit your changes (`git commit -am 'Improve feature'`)
 - Push to the branch (`git push origin improve-feature`)
 - Create a Pull Request 
+
+
+### Urls
+1) https://event-registra-backend.onrender.com/postEvents   ##### used for new event registration
+2) https://event-registra-backend.onrender.com/getEvents    ##### used for get all events
